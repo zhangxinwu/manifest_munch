@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com"
+	 fetch="https://mirrors.tuna.tsinghua.edu.cn/git/AOSP" 
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-13.0.0_r44"
            remote="aosp"
@@ -1189,4 +1189,5 @@
   <include name="snippets/remove.xml" />
   <include name="snippets/external.xml" />
   <include name="snippets/custom.xml" />
+  <include name="snippets/munch.xml" />
 </manifest>
