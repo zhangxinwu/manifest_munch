@@ -24,4 +24,7 @@
     <!-- add sm8250-common_vendor -->
     <project path="vendor/xiaomi/sm8250-common" name="PixelOS-Devices/vendor_xiaomi_sm8250-common" revision="thirteen" remote="github" />
 
+    <!-- add xiaomi_hardware -->
+    <project path="hardware/xiaomi" name="PixelOS-AOSP/hardware_xiaomi" revision="thirteen" remote="github" />
+
 </manifest>
