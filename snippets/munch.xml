@@ -5,11 +5,21 @@
         fetch="https://github.com/zhangxinwu"
         revision="refs/heads/thirteen" />
 
-    <!-- 替换frameworks_base -->
+    <!-- replace frameworks_base -->
     <remove-project name="frameworks_base" />
     <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="Xinwu" />
 
-    <!-- 添加munch_kernel -->
+    <!-- add munch_kernel -->
     <project path="kernel/xiaomi/munch" name="android_kernel_xiaomi_munch" revision="scramble-ksu" remote="Xinwu" />
+
+    <!-- add munch_device -->
+    <project path="device/xiaomi/munch" name="PixelOS-Devices/device_xiaomi_munch" revision="thirteen" remote="github" />
+
+    <!-- add munch-miuicamera_device -->
+    <project path="device/xiaomi/munch-miuicamera" name="masarou-device-garage/android_device_xiaomi_munch-miuicamera" revision="thirteen" remote="github" />
+
+    <!-- add sm8250-common_device -->
+    <project path="device/xiaomi/sm8250-common" name="PixelOS-Devices/device_xiaomi_sm8250-common" revision="thirteen" remote="github" />
+
 
 </manifest>
