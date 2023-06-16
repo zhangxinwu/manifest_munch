@@ -21,5 +21,7 @@
     <!-- add sm8250-common_device -->
     <project path="device/xiaomi/sm8250-common" name="PixelOS-Devices/device_xiaomi_sm8250-common" revision="thirteen" remote="github" />
 
+    <!-- add sm8250-common_vendor -->
+    <project path="vendor/xiaomi/sm8250-common" name="PixelOS-Devices/vendor_xiaomi_sm8250-common" revision="thirteen" remote="github" />
 
 </manifest>
