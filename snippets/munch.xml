@@ -32,4 +32,8 @@
     <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" revision="lineage-20.0" remote="Xinwu" />
     <project path="device/qcom/sepolicy_vndr-legacy-um" name="android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" revision="lineage-20.0-legacy-um" remote="Xinwu" />
 
+    <!-- replace device_lineage_sepolicy -->
+    <remove-project name="device_lineage_sepolicy" />
+    <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="Xinwu" />
+
 </manifest>
