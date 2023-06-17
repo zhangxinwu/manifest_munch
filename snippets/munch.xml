@@ -27,4 +27,9 @@
     <!-- add xiaomi_hardware -->
     <project path="hardware/xiaomi" name="PixelOS-AOSP/hardware_xiaomi" revision="thirteen" remote="github" />
 
+    <!-- replace android_device_qcom_sepolicy_vndr -->
+    <remove-project name="LineageOS/android_device_qcom_sepolicy_vndr" />
+    <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" revision="lineage-20.0" remote="Xinwu" />
+    <project path="device/qcom/sepolicy_vndr-legacy-um" name="android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" revision="lineage-20.0-legacy-um" remote="Xinwu" />
+
 </manifest>
